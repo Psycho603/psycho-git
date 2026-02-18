@@ -1,0 +1,61 @@
+** ::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: navy;
+    text-align: center;
+}
+.ummi{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 2em;
+    font-size: 1rem;
+
+}
+.Maimuna .contact{
+    color:dodgerblue;
+    padding: 1.5em;
+    outline: none;
+    border: 3px solid blue;
+    background-color: navy;
+    border-radius: 10px;
+    padding-left: 3em;
+    padding-right: 3em;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+.Maimuna .contact:active{
+    transform: scale(0.9);
+}
+.Mohammed{
+    color: blue;
+}
+.faisal{
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    justify-content: space-around;
+}
+.sabitu{
+    color: dodgerblue;
+    font-size: 120%;
+}
+.me{
+    color: dodgerblue;
+}
+.you .ibrahim{
+    color:dodgerblue;
+    padding: 1.5em;
+    outline: none;
+    border: 3px solid blue;
+    background-color: navy;
+    border-radius: 10px;
+    padding-left: 3em;
+    padding-right: 3em;
+    cursor: pointer;
+    font-size: 120%;
+} 
